@@ -1,6 +1,6 @@
 {
     "workflow_environment":"pyiron",
-    "title": "pyiron workflow template",
+    "title": "pyiron workflow: tensile test",
     "authors": [
         "Muhammad Hassani <hassani@mpie.de>"
     ],
@@ -25,7 +25,7 @@
         "step3: return the value to a triple store"
     ],
     "license": {
-        
+
     },
     "publication": [
 
