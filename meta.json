@@ -2,34 +2,33 @@
     "workflow_environment":"pyiron",
     "title": "pyiron workflow template",
     "authors": [
-        "author1 <email_address>",
-        "author2 <email_address>"
+        "Muhammad Hassani <hassani@mpie.de>"
     ],
-    "description": "description of what the workflow does",
+    "description": "In this workflow, an experimental dataset of a tensile test is obtained via sparql queries to a triple store. Then the elastic modulus of the sample is calculcated and the result is returned to a triple store.",
     "release": "0.0.1",
     "keywords": [
         "workflow",
-        "template",
-        "keyword1",
-        "keyword2"
+        "pyiron",
+        "ontology",
+        "sparql",
+        "experiment",
+        "tensile_test"
     ],
     "categories":[
-        "category1, e.g., continuum/atomistics/experimental",
-        "catergory2, e.g., continuum/atomistics/experimental"
+        "pyiron_base",
+        "ontology",
+        "experiment"        
     ],
     "steps/codes":[
-        "step1, e.g., calculation of elastic modulus",
-        "code1, e.g., LAMMPS",
-        "step2, e.g., macroscopic response",
-        "code2, e.g., DAMASK"
+        "step1: Obtaining experimental data and visualization",
+        "step2: Calculation of the elastic modulus",
+        "step3: return the value to a triple store"
     ],
     "license": {
-        "softwar1": "license1",
-        "software2": "license2"
+        
     },
     "publication": [
-        "publication1",
-        "publication2"
+
     ],
     "logo" : "logo_dark.png"
 }
