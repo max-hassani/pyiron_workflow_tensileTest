@@ -1,5 +1,5 @@
 channels:
   - conda-forge
 dependencies:
-  - jupyter-book
+  - jupyter-book=0.10.2
   
