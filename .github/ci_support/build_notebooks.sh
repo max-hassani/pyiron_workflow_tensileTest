@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# conda install papermill
-conda install -c conda-forge papermill
-
 # execute notebooks
 current_dir=$(pwd)
 i=0;
