@@ -1,8 +1,9 @@
 channels:
 - conda-forge
 dependencies:
-- python
+- python =3.8
 - pyiron_base =0.3.4
 - requests =2.26.0
 - sparqlwrapper =1.8.5
 - matplotlib =3.4.3
+- papermill
