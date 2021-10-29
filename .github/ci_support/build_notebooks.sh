@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mamba install -c conda-forge ipykernel jupyter
+
 # execute notebooks
 current_dir=$(pwd)
 i=0;
