@@ -6,3 +6,4 @@ dependencies:
 - sparqlwrapper =1.8.5
 - matplotlib =3.4.3
 - papermill
+- scikit-learn =1.0.1
