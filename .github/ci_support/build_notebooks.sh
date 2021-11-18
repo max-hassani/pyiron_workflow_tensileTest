@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mamba install -c conda-forge ipykernel jupyter
+mamba install -c conda-forge ipykernel jupyter nbconvert
 
 # execute notebooks
 current_dir=$(pwd)
