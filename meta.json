@@ -15,7 +15,6 @@
         "tensile_test"
     ],
     "categories":[
-        "pyiron_base",
         "ontology",
         "experiment"        
     ],
