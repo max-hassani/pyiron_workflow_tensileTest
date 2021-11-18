@@ -1,13 +1,13 @@
 #!/bin/bash
 
-conda install -c conda-forge ipykernel jupyter nbconvert
+conda install -c conda-forge ipykernel jupyter
 
-# execute notebooks
 current_dir=$(pwd)
 i=0;
 for f in $(find . -name "*.ipynb" | sort -n); do
+    cd $(dirname $f);
     notebook=$(basename $f);
-    jupyter nbconvert --ExecutePreprocessor.timeout=9999999 --to notebook --execute $f || i=$((i+1));
+    papermill ${notebook} ${notebook%.*}-out.${notebook##*.} -k "python3" || i=$((i+1));
     cd $current_dir;
 done;
 
