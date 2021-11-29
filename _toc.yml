@@ -1,5 +1,5 @@
 format: jb-book
 root: README
 chapters:
-- file: markdown
-- file: notebooks
+- file: README
+- file: sparql_tensile_test
