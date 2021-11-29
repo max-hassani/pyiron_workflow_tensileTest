@@ -1,5 +1,5 @@
 format: jb-book
 root: README
 chapters:
-- file: README
-- file: sparql_tensile_test
+- file: README.md
+- file: sparql_tensile_test.ipynb
