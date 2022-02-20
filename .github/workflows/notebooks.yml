@@ -18,7 +18,6 @@ jobs:
         auto-update-conda: true
         python-version: 3.8
         environment-file: environment.yml
-        auto-activate-base: false
     - name: Tests
       shell: bash -l {0}
       run: ./.github/ci_support/build_notebooks.sh
